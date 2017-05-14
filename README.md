@@ -24,7 +24,7 @@ Après avoir créé le project sur le CloudPebble, vous devez ajouter l'adresse 
 - Répétez l'opération sur les lignes 257 et 298
 
 
-## Installation sur la montre Peeble
+## Installation sur la montre Pebble
 - Dans le menu CloudPebble, cliquez sur "Compilation"
 - Cliquez sur "PHONE"
 - Choisissez la compilation en fonction de votre modèle de montre:
@@ -45,7 +45,7 @@ Après avoir créé le project sur le CloudPebble, vous devez ajouter l'adresse 
 N'oubliez pas d'arrêter le mode développeur après l'installation sur votre montre.
 
 
-## Installation du plugin peeble
+## Installation du plugin pebble
 - Copiez le répertoire `plugins/pebble` dans le répertoire `Avatar-Serveur/plugins`
 
 Relancez Avatar Serveur
