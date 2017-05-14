@@ -8,15 +8,15 @@ Ce plugin est une application [Pebble](https://www.pebble.com) pour le framework
 
 ## Initialisation
 - Dézippez le fichier `Avatar-Plugin-Pebble-Master.zip` dans un répertoire temporaire
-- Connectez-vous sur [CoudPebble](https://cloudpebble.net) avec votre compte Pebble
+- Connectez-vous sur [CloudPebble](https://cloudpebble.net) avec votre compte Pebble
 - Dans la section "Projets", cliquez sur "Importer"
 - Entrez "Avatar Client" comme nom de projet
-- Sélectionnez le fichier zip "Pebble/Avatar_client.zip"
+- Sélectionnez le fichier zip `pebble/avatar_client.zip`
 - Cliquez sur "Importer"
 
 
 ## Personnalisation
-Après avoir créé le project sur le CloudPebble, vous devez ajouter l'adresse IP du Serveur Avatar.
+Après avoir créé le project sur le CloudPebble, vous devez ajouter l'adresse IP de votre Serveur Avatar dans l'application.
 
 - Cliquez sur le projet "Avatar Client"
 - Dans le menu et la liste des fichiers, cliquez sur le fichier app.js
@@ -27,16 +27,16 @@ Après avoir créé le project sur le CloudPebble, vous devez ajouter l'adresse 
 ## Installation sur la montre Peeble
 - Dans le menu CloudPebble, cliquez sur "Compilation"
 - Cliquez sur "PHONE"
-- Choisissez la compilation en fonction de votre modèle de montre
+- Choisissez la compilation en fonction de votre modèle de montre:
 	- Vous pouvez cliquer sur "Paramètres" dans le menu CloudPebble pour avoir le détail des types de compilation.
 	- A savoir que ce client a été conçu pour une compilation "Basalt" et pour montre Pebble Time.
 	- Si vous avez un modèle de montre différent, vous devrez refaire les images pour qu'elles soient conformes à l'écran d'affichage de la montre (aucune autre action n'est requise).
-- Préparez votre montre à recevoir l'application
+- Préparez votre montre à recevoir l'application:
 	- Sur votre téléphone, ouvrez l'application Pebble
 	- Allez dans les paramètres -> Développeur
-	- Activez le mode développeur
-	- Activez les connexions développeur
-		- L'état doit être "A l'écoute"
+		- Activez le mode développeur
+		- Activez les connexions développeur
+			- L'état doit être "A l'écoute"
 - Revenez sur votre projet CloudPebble
 - Dans le menu, cliquez sur le fichier app.js
 - Dans la fenêtre du fichier, à droite, cliquez sur l'icône "Enregister, Compiler, Installer et Lancer"
@@ -46,7 +46,7 @@ N'oubliez pas d'arrêter le mode développeur après l'installation sur votre mo
 
 
 ## Installation du plugin peeble
-- Copiez le répertoire `pebble` dans le répertoire `Avatar-Serveur/plugins`
+- Copiez le répertoire `plugins/pebble` dans le répertoire `Avatar-Serveur/plugins`
 
 Relancez Avatar Serveur
 
@@ -58,7 +58,7 @@ Pour parfaire l'installation de l'application sur votre montre, vous pouvez acti
 
 Ensuite, comme décrit plus haut, 3 touches sont actives:
 - La touche **Haute** active le mode écoute du client courant, cette action est identique au mot-clé que vous avez défini (ex: "Sarah"). Utile par exemple si il y a beaucoup de bruit dans la pièce. Dictez ensuite la règle avec le microphone de la pièce.
-- La touche **Milieu** est un menu dans lequel vous pouvez exécuter plusieurs actions
+- La touche **Milieu** est un menu dans lequel vous pouvez exécuter plusieurs actions directes:
 	- **Actions sur le client:**
 		- **Annule l'écoute:** Si un faux positif a déclenché l'écoute d'Avatar, vous pouvez l'intérrompre
 		- **Démarre l'écoute:** Identique à la touche Haute mais dans le menu

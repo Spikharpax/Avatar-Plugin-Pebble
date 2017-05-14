@@ -1,0 +1,7 @@
+{
+  "modules" : { 
+    "pebble"  : {
+      "description": "connection avec la pebble"
+    }
+  }
+}
