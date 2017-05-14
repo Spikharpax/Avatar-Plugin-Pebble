@@ -97,5 +97,5 @@ Ensuite, comme décrit plus haut, 3 touches sont actives:
 
 ## Versions
 
-Version 1.0 - 10/06/2015
+Version 1.0 - 14/05/2017
 - Version Released
